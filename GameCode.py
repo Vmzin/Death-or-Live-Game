@@ -70,7 +70,7 @@ def choice3():
     choice = input("Qual você escolhe:") 
     if  choice.lower()  in ["frente"]: # choice 6
         print("Você está vivo!")
-        choice6
+        choice6()
     
     if choice.lower() in ["esquerda"]:
         print("GAME OVER")
@@ -86,7 +86,7 @@ def choice4():
         print("GAME OVER")
     elif  choice.lower()  in ["esquerda"]: 
         print("Você está vivo ")
-        choice6 # choice 6
+        choice6() # choice 6
 
 def choice5():
     h2 = (" você está em uma sala com duas portas esquerda e frente.")
